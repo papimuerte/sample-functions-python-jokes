@@ -1,5 +1,5 @@
-import pyjokes
-
+from firebase_admin import auth pyjokes
+       
 def main(args):
   joke = pyjokes.get_joke()
   return {
